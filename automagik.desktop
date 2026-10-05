@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=AutoMagik
+Comment=Autostart Profile Selector for KDE Plasma
+Exec=python3 /home/halo/.config/automagik/automagik.py
+Icon=/home/halo/.config/automagik/AutoMagik.png
+Terminal=false
+Categories=Qt;System;Utility;
+StartupWMClass=AutoMagik
+X-KDE-autostart-after=panel

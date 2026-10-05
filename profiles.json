@@ -1,0 +1,49 @@
+{
+  "auto_launch_enabled": true,
+  "countdown_seconds": 10,
+  "profiles": [
+    {
+      "id": "media",
+      "name": "Media/Web Browsing",
+      "icon": "applications-multimedia",
+      "description": "Launches the Web Browser, Discord, Youtube Music, and Steam.",
+      "commands": [
+        "vivaldi-stable",
+        "flatpak run dev.vencord.Vesktop",
+        "youtube-music",
+        "steam"
+      ]
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming",
+      "icon": "appimagekit-sc-controller",
+      "description": "Launches Discord, Youtube Music, and Steam.",
+      "commands": [
+        "youtube-music",
+        "flatpak run dev.vencord.Vesktop",
+        "steam"
+      ]
+    },
+    {
+      "id": "work",
+      "name": "Work",
+      "icon": "network-server",
+      "description": "Launches Google Drive, Youtube Music, Discord, and opens a terminal.",
+      "commands": [
+        "youtube-music",
+        "konsole",
+        "flatpak run dev.vencord.Vesktop",
+        "vivaldi https://drive.google.com/drive/"
+      ]
+    },
+    {
+      "id": "minimal",
+      "name": "Minimal",
+      "icon": "desktop",
+      "description": "Do not launch any extra applications.",
+      "default": true,
+      "commands": []
+    }
+  ]
+}
