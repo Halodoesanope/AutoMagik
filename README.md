@@ -19,4 +19,3 @@ chmod +x script.sh
 ## Screenshots
 ![Screenshot of the main app page](https://i.ibb.co/23tkVX2S/Screenshot-20261004-235840.png)
 ![Screenshot of the settings page](https://i.ibb.co/whSkJg8P/Screenshot-20261005-001039.png)
-# AutoMagik
