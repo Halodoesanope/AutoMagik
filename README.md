@@ -13,6 +13,7 @@ Install using the included install.sh
 ```bash
 git clone https://github.com/Halodoesanope/AutoMagik.git
 cd AutoMagik
+chmod +x script.sh
 ./install.sh
 ```
 ## Screenshots
